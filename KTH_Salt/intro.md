@@ -19,7 +19,7 @@ Master: a Master server is a server that can controll what the other servers (mi
 
 Minion: a Minion server is a server that receives configuration and commands from the Master server. The terminology "slave" is another word for minion. 
 
-<img src="assets/Master-minions.png" width="300" height="300" />
+<img src="assets/Master-minions.png" width="350" height="350" />
 
 
 ## Why Salt matters to DevOps
