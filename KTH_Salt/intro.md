@@ -1,4 +1,5 @@
 # SaltStack
+<img src="assets/minion_config.png" width="200" height="100" />
 
 ## Intended learning outcomes:
 * Learn what Salt is and how it can be useful
