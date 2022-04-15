@@ -1,5 +1,5 @@
 # SaltStack
-<img src="assets/Salt-pic.png" width="200" height="100" />
+<img src="assets/Salt-pic.png" width="400" height="150" />
 
 ## Intended learning outcomes:
 * Learn what Salt is and how it can be useful
