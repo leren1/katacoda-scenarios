@@ -1,4 +1,5 @@
 # SaltStack
+<img src="assets/Salt.png" width="400" height="150" />
 
 ## Intended learning outcomes:
 * Learn what Salt is and how it can be useful
