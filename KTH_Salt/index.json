@@ -47,7 +47,7 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal-v1"
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "bash"
