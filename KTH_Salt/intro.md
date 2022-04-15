@@ -1,11 +1,11 @@
 # SaltStack
-<img src="assets/Salt.png" width="200" height="100" />
 
 ## Intended learning outcomes:
 * Learn what Salt is and how it can be useful
 * Learn how to use the software
 
 ## What is salt? 
+<img src="assets/Salt.png" width="200" height="100" />
 
 Salt (a.k.a SaltStack) is a python based open-source software. The first release of Salt was in March 2011. Since its release, it has grown in popularity and use. Today Salt can be seen in companies and tools such as Juniper, Cisco, Cloudflare, Nutanix, SUSE, and Tieto.
 
