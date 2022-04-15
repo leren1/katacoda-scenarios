@@ -1,4 +1,4 @@
-# SaltStack
+# Salt
 <img src="assets/Salt-pic.png" width="400" height="150" />
 
 ## Intended learning outcomes:

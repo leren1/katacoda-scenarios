@@ -20,12 +20,12 @@ On your Linux command line, list the keys.
 sudo salt-key
 ```
 
-The outcome should look like this
+The outcome should look like this:
 ```
 Accepted Keys:
 Denied Keys:
 Unaccepted Keys:
-windowsminion
+alpha
 Rejected Keys:
 ```
 
@@ -33,3 +33,21 @@ You can accept all keys by using:
 ```
 sudo salt-key -A
 ```
+
+List the keys again and it should look like this:
+```
+Accepted Keys:
+alpha
+Denied Keys:
+Unaccepted Keys:
+Rejected Keys:
+```
+
+Now the Minion's key shuld be accepted by the master. We can verify the connection by running the `test.version` command:
+```
+$ sudo alpha test.version
+alpha:
+    3004.1
+```
+
+And now the setup is complete! The next step will show the powerful potential of Salt by showing example commands and how to filter using Grains. 

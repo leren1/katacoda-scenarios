@@ -53,5 +53,5 @@ When you arrive to the settings screen, the default Master IP will be `salt` and
 
 <img src="assets/minion_config.png"  />
 
-If you were an admin configuring Salt for a large network, instead of changing the Master IP for every minion installed, you would ideally make it so `salt` would resolve to the IP of the Master. But since we are working locally and on one machine, it is simpler to change the minion setting instead.
+If you were an admin configuring Salt for a large network, instead of changing the Master IP for every minion installed, you would ideally make it so the DNS would resolve `salt` to the IP of the Master. But since we are working locally and on one machine, it is simpler to change the minion setting instead.
 
