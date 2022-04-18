@@ -7,7 +7,7 @@ If you will use the Katacoda terminal, then no further requirements are needed. 
 * Administrator rights
 * Ports 4505 and 4506 free on 127.0.0.1
 
-For this tutorial, we will be only using the Katacoda terminal. The master needs to be installed on a server or VM while the minion can be installed on nearly any operating system. We'll be installing the master and the minion on the same machine by using the terminal. The master binds on ports 4505 and 4506 and so they must be available if you are installing on your own machine.
+For this tutorial, we will only use the Katacoda terminal. The master needs to be installed on a server or VM while the minion can be installed on nearly any operating system. We'll be installing the master and the minion on the same machine by using the terminal. The master binds on ports 4505 and 4506 and so they must be available if you are installing it on your own machine.
 
 ## Installation
 **Note: to make sure everything works properly, we will ensure that the commands have root access by using `sudo`.**

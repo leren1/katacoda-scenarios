@@ -46,9 +46,9 @@ Rejected Keys:
 
 Now the Minion's key should be accepted by the master. We can verify the connection by running the `test.version` command:
 ```
-$ sudo alpha test.version
+$ sudo salt alpha test.version
 alpha:
-    3004.1
+    2015.8.8
 ```
 
 And now the setup is complete! The next steps will show the powerful potential of Salt by showing example commands, writing custom modules and how to filter using Grains. 
