@@ -7,14 +7,13 @@ Start the Master as a daemon, that means as a process that runs in the backgroun
 sudo salt-master -d
 ```
 
-Start the minion in Windows by opening Task Manager, clicking the services tab and finding `salt-minion' and then right clicking and clicking start. 
-
-If you installed the minion on Linux, then start it similarly to the Master.
+Start the minion, also as a daemon.
 ```
 sudo salt-minion -d
 ```
 
 ## Accepting keys
+
 On your Linux command line, list the keys.
 ```
 sudo salt-key
@@ -28,6 +27,8 @@ Unaccepted Keys:
 alpha
 Rejected Keys:
 ```
+
+If not, wait about a minute for the Master and Minion to finish connecting.
 
 You can accept all keys by using:
 ```
@@ -43,11 +44,11 @@ Unaccepted Keys:
 Rejected Keys:
 ```
 
-Now the Minion's key shuld be accepted by the master. We can verify the connection by running the `test.version` command:
+Now the Minion's key should be accepted by the master. We can verify the connection by running the `test.version` command:
 ```
 $ sudo alpha test.version
 alpha:
     3004.1
 ```
 
-And now the setup is complete! The next step will show the powerful potential of Salt by showing example commands and how to filter using Grains. 
+And now the setup is complete! The next steps will show the powerful potential of Salt by showing example commands, writing custom modules and how to filter using Grains. 

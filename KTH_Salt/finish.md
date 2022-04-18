@@ -1,0 +1,3 @@
+We hope this tutorial was easy to follow and educational. Salt is a very useful configuration management tool and hopefully, you now have a basic knowledge foundation to start using Salt on your own. As this tutorial is for beginners, a lot of functionality that Salt has was not included. The [documentation](https://docs.saltproject.io/en/latest/contents.html) is useful and covers _many_ more features than this tutorial. 
+
+Good luck!
