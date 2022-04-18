@@ -28,7 +28,7 @@ alpha
 Rejected Keys:
 ```
 
-If not, wait about a minute for the Master and Minion to finish connecting.
+**Note: If there is no key listed under `unaccepted`, wait a few minutes for the connection to establish, then try listing the keys again.**
 
 You can accept all keys by using:
 ```
